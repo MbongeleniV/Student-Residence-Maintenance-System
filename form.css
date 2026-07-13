@@ -1,0 +1,46 @@
+
+form{justify-self: center;
+     align-items: center;
+   
+     border: 1px solid;
+     padding: 40px;
+     background-color: rgba(255, 166, 0, 0.536);
+     border-radius: 10px;
+    /* width:25%;*/
+
+}
+form h1{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color:white;
+        text-shadow: 1px 2px 2px black;
+}
+form img{width:300px;
+         margin-bottom: -50px;
+         margin-top: -50px;
+
+}
+form input{display: block;
+           border-radius: 5px;
+           width:300px;
+           height:30px;
+           border-top: none;
+           border-left:none;
+           border-right: none;
+           border-bottom: 2px solid;
+           background-color: rgba(255, 166, 0, 0.536);
+}
+
+form label {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+form button{width:100%;
+            background-color: orange;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: larger;
+
+}
+.loginQuestion {display:block;
+
+}

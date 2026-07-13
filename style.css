@@ -37,6 +37,7 @@
         transition: 0.5s ease;
         font-size: larger;
         border: 1px solid rgb(255, 254, 237);
+        border-radius: 5px;
         margin:10px
       
          
@@ -116,6 +117,14 @@
           flex-wrap: wrap;
 }
 
+.navbar a{
+        
+        border:none;
+        
+      
+         
+}
+
 
 }
 
@@ -138,6 +147,7 @@
 .heroBannerParent{position:relative;/*make this the reference point for the textOverlay*/
                   width: 100%;
                   height:800px;
+                 
 }
 
 .heroImage img{display: block;
@@ -161,9 +171,128 @@
              line-height:50px ;
              background-color: rgba(10, 115, 207, 0.737);
              border: 1px solid;
-             
+              box-shadow: 2px 2px 4px rgb(208, 206, 206);
              border-radius: 50px;
              padding: 10px;
              z-index: 2;
+
+}
+.textOverlay button{background-color: orange;
+                    width:100px;
+                    padding:10px;
+                    margin-left:50px;
+                    border-radius: 10px;
+                    border:2px solid white
+}
+.heading1{text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.parent{ 
+      
+        justify-content: center; 
+        display: flex;
+        margin-top:50px;
+         border-radius: 15px;
+        background-color: rgba(228, 255, 196, 0.766);
+
+}
+.part{
+      background-color: rgba(163, 182, 54, 0.742);
+      background-color: orange;
+      padding:50px;
+    border-radius: 15px;
+      transition: 0.3s;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color:white
+   
+}
+.cleaningBanner video{
+                    object-fit:cover;
+                    width:100%;
+                    height: 200px;
+                    padding-top:50px;
+                    
+
+}
+
+
+.serviceCard{border:  1px solid green;
+             border-radius: 15px;
+             background-color: rgba(109, 128, 0, 0.659);
+             width:300px
+}
+
+.serviceCard img {width:300px;
+                 height:300px;
+                 border-radius: 15px;
+                 transform: scale(0.9);
+                 transition: 1s;
+                 display: block;
+                 margin:auto;
+               
+}
+
+.serviceCard img:hover{transform: scale(1);
+
+}
+.serviceCard p {text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+                line-height: 30px;
+               
+                padding: 10px;
+                text-align: left;
+}
+.serviceCard h1{text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: aliceblue;
+
+}
+.serviceCard{display: block;
+             margin:auto
+
+}
+
+/*code for before the user sees the section*/
+.serviceCard{opacity: 0;
+            transform: translateY(50px);
+            transition: 1.5s ease;
+          
+}
+/*code for After the user sees the section*/
+.show{ opacity: 1;
+        transform: translateY(0);
+         
+}
+
+.ServicesParent {flex-wrap: wrap;
+                 display: flex;
+                  gap:30px;
+                 justify-self: center;
+                 padding-top: 30px;
+                 padding-bottom: 70px; 
+                        
+
+}
+.signUpLoginParent{display:flex;
+                   flex-wrap: wrap;
+                   gap:30px;
+                   justify-content: center;
+                 
+                   background-color: aliceblue;
+
+
+}
+.signUpLogin h3{text-align: center ;
+                font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+.signUpLogin button{background-color:orange;
+                     padding:10px;
+                    margin:10px;
+                    width:100px;
+                    border-radius: 5px;
+                    border: 2px solid white;
 
 }
