@@ -296,3 +296,16 @@
                     border: 2px solid white;
 
 }
+.signUpLogin{
+             padding: 10px;
+             border-radius: 5px;
+}
+.signUpLogin:nth-child(1){background-color: rgba(0, 0, 0, 0.168);
+
+}
+.signUpLogin:nth-child(2){background-color: rgba(252, 87, 10, 0.433);
+
+}
+.signUpLogin:nth-child(3){background-color: rgba(252, 212, 10, 0.433);
+
+}
